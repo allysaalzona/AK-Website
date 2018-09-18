@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,800');
+
 body {
     background-color: #e6e6e6;
-    font-family: "MS Sans Serif", Geneva, sans-serif;
+    min-height: 600px;
+    width: 100%;
+    background:url(img/banner1.jpg) no-repeat 0 -230px;
+    background-size: cover;
+    font-family: 'Muli', sans-serif;
     font-size: 14px;
     font-weight: normal;
     letter-spacing: 1px;
@@ -14,6 +20,24 @@ body {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    text-align:center;
+}
+
+.primary-btn {
+    background-color: #000;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    width: 25%;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.primary-btn:hover {
+    background-color: #fff;
+    color: #000;
+    border: #000 2px solid;
 }
 
 /* Header */
@@ -22,17 +46,21 @@ header {
     position: fixed;
     width: 100%;
     min-height: 50px;
+    border-bottom: #e6e6e6 1px solid;
 }
 
 /* Brand */
-.brand {
+#brand {
     float: left;
+    width: 8%;
+    padding-top:20px;
+    padding-bottom:20px;
 }
 
 /* Navbar */
 .navbar {
     float: right;
-    padding-top:10px;
+    padding-top:15px;
 }
 
 .navbar li {
@@ -41,9 +69,10 @@ header {
 
 .navbar a {
     color: #333333;
-    padding: 5px;
+    padding: 10px;
     text-decoration: none;
-    text-transform: uppercase;  
+    text-transform: uppercase; 
+    text-align: center; 
 }
 
 .navbar a:hover {
@@ -57,7 +86,15 @@ header {
 }
 
 /* Main */
-.main img {
-    
+#main {
+    color: #ffffff;
 }
 
+#main h1 {
+    margin-top: 300px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Featured */
