@@ -10,6 +10,7 @@
         <title>AK Tees | Creative Clothing</title>
 
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body onload="displayNewItems()">
         <header>
@@ -30,7 +31,7 @@
         <section id="main">
             <div class="container">
                 <h1>Creative Clothing</h1>
-                <button class="primary-btn">Shop ak tees</button>
+                <button id="shopAKbtn">Shop ak tees</button>
             </div>
         </section>
 
@@ -40,6 +41,26 @@
                 <div id="new"></div>
             </div>
         </section>
+
+        <footer>
+            <div class="container">
+                <div id="newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Get to hear about our upcoming releases.</p>
+                    <input type="email" placeholder="Enter your email">
+                    <button class="primary-btn">Subscribe</button>
+                </div>
+                <div id="contact">
+                    <h3>Contact Us</h3>
+                    <div id="icons">
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-instagram"></i>
+                    </div>
+                </div>
+                <p id="copyright">&copy;AK TEES 2018</p>
+            </div>
+        </footer>
         
     <script src="main.js"></script>    
     </body>

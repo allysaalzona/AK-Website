@@ -23,24 +23,26 @@ body {
     text-align:center;
 }
 
+input {
+    padding:8px;
+}
+
 .primary-btn {
-    background-color: #333;
-    color: #ffffff;
+    background-color: #fff;
+    color: #333;
     border: none;
-    padding: 15px 30px;
+    padding: 10px;
     text-transform: uppercase;
-    width: 25%;
-    font-size: 16px;
+    width: 40%;
+    font-size: 12px;
     letter-spacing: 2px;
     transition: .3s;
-    box-shadow: 2px 2px 10px #333;
-    margin-bottom: 10px;
 }
 
 .primary-btn:hover {
-    background-color: #fff;
-    color: #333;
-    border: #333 2px solid;
+    background-color: #333;
+    color: #fff;
+    border: #fff 2px solid;
 }
 
 /* Header */
@@ -111,6 +113,27 @@ header {
     position: relative;
 }
 
+/* Shop AK button */
+#shopAKbtn {
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    width: 25%;
+    font-size: 16px;
+    letter-spacing: 2px;
+    transition: .3s;
+    box-shadow: 2px 2px 10px #333;
+    margin-bottom: 10px;
+}
+
+#shopAKbtn:hover {
+    background-color: #fff;
+    color: #333;
+    border: #333 2px solid;
+}
+
 /* New Items */
 #new {
     display: grid;
@@ -121,4 +144,39 @@ header {
 
 #item {
     width:80%;
+}
+
+/* Footer  */
+footer {
+    background-color: #333;
+    color:#fff;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+footer .container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+footer input {
+    width:50%;
+    display:inline;
+    float:left;
+}
+
+footer button {
+    display:inline;
+    float:right;
+}
+
+#icons i{
+    font-size:30px;
+    padding: 10px;
+}
+
+#copyright {
+    font-size: 10px;
+    grid-column: 1/span 2;
 }
