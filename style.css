@@ -1,0 +1,63 @@
+body {
+    background-color: #e6e6e6;
+    font-family: "MS Sans Serif", Geneva, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Global */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    min-height: 50px;
+}
+
+/* Brand */
+.brand {
+    float: left;
+}
+
+/* Navbar */
+.navbar {
+    float: right;
+    padding-top:10px;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: #333333;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;  
+}
+
+.navbar a:hover {
+    border-bottom: #333333 1px solid;
+}
+
+/* Current link */
+.current a{
+    font-weight: bold;
+    border-bottom: #333333 1px solid;
+}
+
+/* Main */
+.main img {
+    
+}
+
